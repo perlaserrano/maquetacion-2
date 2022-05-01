@@ -20,7 +20,7 @@
 @font-face{
     font-family: "WebSymbolsRegular";
     src: url("../fonts/websymbols-regular-webfont.eot");
-    src: url("../fonts/websymbols-regular-webfont.eot?#iefix")format("embedded-opentype"),
+    src: url("../fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
       url("../fonts/websymbols-regular-webfont.woof") format("woof"),
       url("../fonts/websymbols-regular-webfont.ttf") format("truetype"),
       url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");
@@ -232,31 +232,31 @@ body{
     letter-spacing: 2px;
     text-shadow: 2px 2px 1px black;
     margin: 27px auto;
-    animation: showText 10s linear;
+    animation: showText 15s linear;
 }
 
 @keyframes showText{
     0%{
-        transform: translateX(-600%) scale(5,5);
+        transform: translateX(600%) scale(5,5);
         opacity: 1;
 
     }
     50%{
-        transform: translateX(600%) scale(5,5);
+        transform: translateX(-600%) scale(5,5);
         opacity: 1;
 
 
     }
     75%{
-        transform: translateX(-600%) scale(5,5);
+        transform: translateX(600%) scale(5,5);
         text-shadow: none;
-        color: transparent;
+        color: rgba(204, 204, 204, 0);
         opacity: 0;
 
 
     }
     100%{
-        transform: translateX(-600%) scale(1,1);
+        transform: translateX(0%) scale(1,1);
         text-shadow: 2px 2px 1px black;
         color: white;
         opacity: 1;
@@ -708,9 +708,13 @@ body{
 
 }
 
+#footer > .wrap {
+    display: flex;
+}
+
 #footer .wrap > div{
     float: left;
-    width: 220px;
+    /* width: 220px; */
     height: 370px;
     margin: 40px;
     text-align: center;

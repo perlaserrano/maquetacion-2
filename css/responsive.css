@@ -11,12 +11,12 @@
     }
 
     .cards{
+        display: flex;
         width: 190px;
         margin: 13px;
     }
 
     .cards p{
-        display: block;
         width: 90%;
         margin: 0 auto;
         text-align: center;
