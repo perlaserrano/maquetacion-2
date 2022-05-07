@@ -5,14 +5,14 @@
     }
 
     #banner h1{
+        width: 100%;
         font-size: 35px;
         text-align: center;
         margin: 33px auto;
     }
 
     .cards{
-        display: flex;
-        width: 190px;
+        width: 130px;
         margin: 13px;
     }
 
@@ -59,9 +59,14 @@
 
 @media (max-width: 970px){
     #articles{
-        width: 59%;
+        width: 40%;
 
     }
+
+    /*#footer .wrap > div{
+        width: 25%;
+        margin: 20px;
+    }*/
 
     #footer h5{
         font-size: 22px;
@@ -70,7 +75,7 @@
 
 @media (max-width: 925px){
     #articles{
-        width: 65%;
+        width: 55%;
 
     }
 
@@ -81,13 +86,17 @@
     #lateral input[type="text"]{
         width: 78%;
     }
-
-    
-
+  
     .aside-box{
         width: 95%;
         min-height: 240px;
         height: auto;
+        padding-bottom: 10px;
+    }
+
+    #login a{
+        margin-top: 10px;
+        margin: bottom 10px;;
     }
 
     #login input[type="email"],
@@ -105,5 +114,40 @@
     #login input[type="reset"],
     #login button{
         margin-bottom: 0%;
+    }
+
+    #login input[type="reset"]{
+        display: none;
+    }
+
+@media (max-width:899px){
+    #lateral h3{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:899px){
+    #banner h1{
+        font-size: 29px;
+    }
+
+    .cards{
+        height: auto;
+    }
+
+    .cards .category{
+        font-size: 15px;
+        margin-top: -23px;
+    }
+
+    .cards .description{
+        display: none;
+    }
+
+    #footer img{
+
+        margin-bottom: 15px;
+        max-width: 100%;
     }
 }
