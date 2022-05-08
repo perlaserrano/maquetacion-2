@@ -63,10 +63,10 @@
 
     }
 
-    /*#footer .wrap > div{
+    #footer .wrap > div{
         width: 25%;
         margin: 20px;
-    }*/
+    }
 
     #footer h5{
         font-size: 22px;
@@ -150,4 +150,145 @@
         margin-bottom: 15px;
         max-width: 100%;
     }
+}
+
+@media (max-width: 724px){
+    #header{
+        width: 100%;
+        height: 120px;
+        padding-top: 10px;
+    }
+
+    #logo{
+        float: none;
+        width: 200px;
+        margin: 0px auto;
+        
+    }
+
+    #menu{
+        clear: both;
+        float:none;
+        width: 1000px;
+        margin: 0px auto;
+
+    }
+
+    #lateral input[type="text"]{
+        width: 70%;
+    }
+}
+
+@media (max-width: 706px){
+    #banner h1{
+        font-size: 15px;
+    }
+
+    #lateral{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+        margin-top: 20px;
+    }
+
+    #lateral input[type="text"]{
+        width: 93%;
+    }
+
+    #articles{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #login input[type="email"],
+    #login input[type="password"]{
+        width: 65%;
+    }
+    #footer{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    
+    #footer .wrap > div{
+        width: 200%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    #footer h5{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 560px){
+    #logo{
+        float: left;
+    }
+
+    #header{
+        width: 100%;
+        height: 275px;
+        padding-top: 10px;
+    }
+
+
+    #menu{
+        clear: both;
+        float:none;
+        width: 600px;
+        margin: 0px auto;
+
+    }
+
+    #menu ul li {
+        width: 100%;
+        line-height: 100px;
+    }
+
+    #menu ul li a{
+        width: 100%;
+        line-height: 52px;
+    }
+
+    #banner{
+        height: 85px;
+        
+    }
+    #banner h1{
+        font-size: 18px;
+    }
+
+
+    #lateral input[type="text"]{
+        width: 85%;
+    }
+
+    .cards .icon{
+        font-size: 35px;
+    }
+
+    .cards:hover .icon{
+        font-size: 35px;
+    }
+
+    .cards .category{
+        font-size: 17px;
+    }
+
+    #article .data{
+        float: none;
+        margin: -10px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    #article article h4{
+        margin-top: 20px;
+    }
+
+
+
 }
