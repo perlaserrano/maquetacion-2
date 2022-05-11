@@ -10,20 +10,19 @@ body{
     flex-wrap: wrap;
     */
     flex-flow: row wrap;
-    
-
-
-
-
-
+    justify-content: space-evenly;
+    height: 600px;
+    align-items:flex-start;
     border: 3px solid black;
     padding: 5px;
 }
  
 .caja{
+    flex-grow: 1;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    
     color: white;
     padding: 20px;
     border: 4px solid #222;
@@ -32,21 +31,25 @@ body{
 }
 
 .red{
-    order: 4;
-    background: red;
+    align-self:flex-start ;
+    background:red;
 }
 
 .green{
-    order: 1;
+    /*margin-top: 10%;*/
+    align-self: center;
     background:green;
 }
 
 .blue{
-    order: 2;
+    align-self: center;
+ 
+
     background:blue;
 }
 
 .orange{
-    order: 3;
+    
+    align-self: flex-end;
     background: orange;
 }
