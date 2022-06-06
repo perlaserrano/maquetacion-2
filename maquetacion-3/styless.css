@@ -245,8 +245,25 @@
 }
 
 
-    #footer {
-        flex-direction: column-reverse;
+    #aside{
+        margin-right:0px ;
+    }
+
+    #aside ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    #aside ul li{
+        flex-grow: 1;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .project{
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     #footer .logo{
